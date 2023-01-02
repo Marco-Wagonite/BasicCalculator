@@ -21,18 +21,18 @@ def Mod(x, y):
 
 while True:
     # Hàm nhập chọn chế độ tính
-    print ("---Đây là máy tính cơ bản---")
-    print ("1. Phép tính cộng")
-    print ("2. Phép tính trừ")
-    print ("3. Phép tính nhân")
-    print ("4. Phép tính chia")
-    print ("5. Phép tính chia có dư")
-    choice = input("Hãy nhập chế độ tính (1/2/3/4/5): ")
+    print ("---This is just a basic calculator---")
+    print ("1. Add")
+    print ("2. Sub")
+    print ("3. Mul")
+    print ("4. Div")
+    print ("5. Mod")
+    choice = input("Please input your number (1/2/3/4/5): ")
     
     # Ktra xem nếu choice có ở trong sự lựa chọn không
     if choice in ('1', '2', '3', '4', '5'):
-        num1 = float(input("Mời nhập số đầu tiên: "))
-        num2 = float(input("Mời nhập số thứ hai: "))
+        num1 = float(input("Input your first number: "))
+        num2 = float(input("Input your second number: "))
 
         if choice == '1':
             print(num1, "+", num2, "=", Add(num1, num2))
