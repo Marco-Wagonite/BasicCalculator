@@ -51,7 +51,7 @@ while True:
         
         # Ktra xem nếu người dùng muốn làm thêm phép tính không
         # Người dùng trả lời 'no' thì dừng
-        next_calculation = input("Bạn có muốn làm tiếp? (yes/no): ")
+        next_calculation = input("Do you want to continue? (yes/no): ")
         if next_calculation == "no":
           break
     
